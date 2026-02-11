@@ -9,6 +9,7 @@
     scroll-behavior: smooth;
 }
 
+
 .container1 {
     position: relative;
     display: flex;
@@ -118,6 +119,9 @@
     color: rgb(255, 102, 0);
 }
 
+.navigation a.activenav {
+    color: rgb(251, 102, 0);
+}
 
 .bg1 {
     position: relative;
@@ -319,6 +323,31 @@
 
 
 /*MENU PAGE*/
+.bg2 {
+    position: relative;
+    background: url("images/bg1.png") no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.bg2 h1,p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.bg2 h1 {
+    font-size: 80px;
+    top: 200px;
+}
+
+.bg2 p {
+    font-size: 50px;
+    top: 250px;
+}
+
 .menus {
     display: flex;
     flex-wrap: wrap;
@@ -380,6 +409,7 @@
 .menu:hover a h2 {
     color: rgb(255, 102, 0);
 }
+
 
 /* PRODUCT MENU */
 
