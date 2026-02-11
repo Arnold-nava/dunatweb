@@ -1,0 +1,470 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fredoka;
+    scrollbar-width: auto;
+    scroll-behavior: smooth;
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 102, 0);
+    padding: 10px 0px 10px 120px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.logo i {
+    color: rgb(255, 102, 0);
+}   
+
+.logo:hover{
+    background-color: rgb(255, 16, 251);
+    transform: scale(.8,.8) ;
+}
+.logo i:hover{
+    color: white;
+}
+
+.contact {
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+.contact a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    border-radius: 120px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    background-color: white;
+    color: rgb(255, 102, 0);}
+
+.container2 {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    padding: 14px 0px 14px 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px rgb(0,0,0);
+}
+
+.container2 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 120px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container2 h1 {
+    color: rgb(255, 102, 0);
+}
+
+.container2 p {
+    color: rgb(85, 16, 16);
+}
+
+.container2 a:hover {
+    transform: scale(.9,.9);
+}
+
+
+.navigation {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    right: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+
+    
+}
+
+.navigation a:hover {
+    color: rgb(255, 102, 0);
+}
+
+
+.bg1 {
+    position: relative;
+    background: url("images/bg1.png") no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.bg1 h1.home-h1 {
+    position: absolute;
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    max-width: 300px;
+    top: 60px;
+    left: 100px;
+}
+
+.bg1 pre.home-pre {
+    position: absolute;
+    color: white;
+    font-size: 75%;
+    max-width: 200px;
+    top: 250px;
+    left: 100px;
+}
+
+.bg1 img {
+    position: absolute;
+    height: 450px;
+    top: 5px;
+    left: 450px;
+}
+
+.bg1 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(131, 219, 249);
+    border: solid 0px;
+    border-radius: 120px;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 290px;
+    left: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg1 a:hover {
+    background-color: white;
+    color: rgb(131, 219, 249);
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    gap: 10px;
+}
+
+.about h1 {
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about pre {
+    font-size: 18px;
+    max-width: auto;
+    color: rgb(150, 150, 150);
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 15px;
+    width: 400px;
+    min-height: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: rgb(255, 102, 0);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 70px;
+    width: 120px;
+}
+
+.card p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.card i {
+    position: relative;
+    bottom: 170px;
+    left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    size: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.container3 {
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 22, 168);
+    height: 200px;
+    padding: 10px 0px 10px 50px;
+    gap: 10px;
+} 
+
+.logo1 {
+    position: relative;
+    top: 140px;
+    right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;    
+    transition: all 0.3s ease-in-out;
+}
+
+.container3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;    
+    top: 120px;
+    color: rgb(255, 102, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.logo1 i {
+    color: rgb(255, 22, 168)
+}
+
+.logo1:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(.8,.8) ;
+}
+.logo1 i:hover{
+    color: rgb(251, 102, 0);
+}
+
+.contact2 {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+.contact2 a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    border-radius: 120px;
+    padding: 5px 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact2 a:hover {
+    background-color: white;
+    color: rgb(255, 22, 168);
+}
+
+
+/*MENU PAGE*/
+
+.bg2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("images/bg1.png") no-repeat;
+    background-size: cover;
+    height: 950px;
+    text-align: center;
+}
+
+.bg2 h1 {
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.bg2 p{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menus h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+    background: radial-gradient(rgb(247, 247, 247),rgb(255, 102, 0));
+    transition: all 0.3s ease-in-out;
+}
+
+.menus img {
+    height: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menus h2 {
+    position: relative;
+    top: 20px;
+    right: 20px;;
+    color: gray;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu:hover {
+    transform: scale(.9,.9);
+}
+
+.menus img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.menu:hover a h2 {
+    color: rgb(255, 102, 0);
+}
+
+/* PRODUCT MENU */
+
+.donutmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    gap: 30px   ;
+}
+
+.donutmenu table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+.donutmenu tr td {
+    padding: 30px;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 5px rgb(0,0,0);
+    max-width: 250px;
+}
+
+.donutmenu img {
+    width: 120px;
+}
+
+.donutmenu tr td p,input{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.donutmenu button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.donutmenu button:hover {
+    transform: scale(1.2);
+    color: white;
+    background-color: rgb(251, 102, 0);
+
+}
+
+
+
+
+
